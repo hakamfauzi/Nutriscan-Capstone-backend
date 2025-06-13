@@ -7,9 +7,9 @@ const riwayatRoutes = require('./routes/riwayat');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+// http://localhost:
 app.listen(PORT, () => {
-  console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
+  console.log(`🚀 Server berjalan di ${PORT}`);
 });
 
 app.get('/', (req, res) => {
