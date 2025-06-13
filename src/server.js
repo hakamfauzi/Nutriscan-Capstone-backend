@@ -12,6 +12,10 @@ app.listen(PORT, () => {
   console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello from Render!');
+});
+
 // Middleware untuk CORS dulu
 app.use(cors({
   origin: '*', // atau spesifik ke frontend URL
