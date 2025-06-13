@@ -1,0 +1,13 @@
+# Ignore environment variables
+.env
+
+# Node modules (optional, jika belum ditulis)
+node_modules/
+
+# Logs
+*.log
+
+# Vercel dan build (optional)
+.vercel/
+dist/
+build/
