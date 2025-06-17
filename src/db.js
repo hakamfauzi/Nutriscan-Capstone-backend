@@ -9,9 +9,6 @@ const db = mysql.createConnection({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   timezone: '+07:00',
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
 });
 
 // Fungsi untuk inisialisasi database (buat tabel saja)
